@@ -1,0 +1,14 @@
+:root {
+    --white: #ffffff;
+    --background-home: #BEEEFF3D;
+    --form-border-home: #52ADFC45;
+    --details-home: #28CBFD;
+
+    --full-background-adm: #FFFFFF;
+    --background-container: #F3F4F8;
+    --dark-blue-txt: #015B97;
+    --light-blue-txt: #00ADEF;
+    --light-green-txt: #00BB5C;
+    --form-color-adm: #F4FBFF;
+    --form-border-adm: #008CBA33;
+}
