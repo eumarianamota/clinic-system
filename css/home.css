@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    background: var(--background-home);
 }
 
 .home {
+    background: var(--background-home);
     display: flex;
     flex-direction: column;
     align-items: center;
