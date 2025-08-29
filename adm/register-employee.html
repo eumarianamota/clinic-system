@@ -5,35 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="../css/vars.css">
+    <link rel="stylesheet" href="../css/adm.css">
+    <link rel="stylesheet" href="../css/style.css">
 
-    <title>Document</title>
+    <title>Cadastro de funcionário</title>
 </head>
 <body>
     <div class="container">
-        <button id="back-btn" class="back-btn">
-            <i class="bi bi-arrow-left"></i>    
-        </button>
-    
         <h1>CADASTRO DE FUNCIONÁRIO</h1>
         <form id="register-employee">
-            <label for="">NOME COMPLETO: </label>
-            <input type="text" required>
+            <div class="container-input">
+                <label for="">NOME COMPLETO: </label>
+                <input type="text" required>
+            </div>
 
-            <label for="">GÊNERO:</label>
-            <input type="text" required>
+            <div class="container-input">
+                <label for="">GÊNERO:</label>
+                <input class="input-3" type="text" required>
 
-            <label for="">RG OU CPF:</label>
-            <input type="text" required>
+                <label for="">RG OU CPF:</label>
+                <input class="input-3" type="text" required>
 
-            <label for="">CARGO:</label>
-            <input type="text" required>
+                <label for="">CARGO:</label>
+                <input class="input-3" type="text" required>
+            </div>
 
-            <label for="">EMAIL:</label>
-            <input type="text" required>
+            <div class="container-input">
+                <label for="">EMAIL:</label>
+                <input type="text" required>
+            </div>
 
-            <button type="submit">CONCLUIR CADASTRO</button>
+            <div class="buttons">
+                <button class="back-btn">VOLTAR</button>
+                <button type="submit">CONCLUIR CADASTRO</button>
+            </div>
         </form>
     </div>
 </body>

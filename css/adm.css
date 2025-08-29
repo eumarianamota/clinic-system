@@ -9,9 +9,9 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: var(--white);
     height: 100vh;
 }
+
 
 .container {
     display: flex;
@@ -25,28 +25,36 @@ body {
     border-radius: 30px;
 
     width: 70%;
-    height: 90vh;
     padding: 30px 20px;
 }
+
 
 .header {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    width: 100%;
 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
+
+
+.search-bar {
+    width: 60%;
+}
+
 
 .search-input {
     background-color: var(--white);
     border: solid 1px var(--form-border-adm);
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     box-shadow: 2px 4px 6px rgba(0, 0, 3, 0.125);
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--dark-blue-txt);
 
-    width: 500px;
+    width: 80%;
 }
 
 .search-input::placeholder {
@@ -57,28 +65,26 @@ body {
     background-color: var(--white);
     border: solid 1px var(--form-border-adm);
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     box-shadow: 2px 4px 6px rgba(0, 0, 3, 0.125);
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--dark-blue-txt);
-
-    margin-right: 30px;
 }
 
 .register {
     background-color: var(--white);
     border: solid 1px var(--form-border-adm);
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     box-shadow: 2px 4px 6px rgba(0, 0, 3, 0.125);
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--dark-blue-txt);
 }
 
-ul {
+.employees {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     row-gap: 10px;
 }
@@ -87,61 +93,43 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 903px;
+
+    width: 750px;
     
     background-color: var(--form-color-adm);
     border: solid 1px var(--form-border-adm);
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     box-shadow: 2px 4px 6px rgba(0, 0, 3, 0.125);
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--dark-blue-txt);
 }
 
-
 /* TELA DE REGISTRO */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container-input {
+    width: 100%;
 }
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+input {
 
-    background-color: var(--white);
-    height: 100vh;
+    width: 100%;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-
-    background-color: var(--background-container);
-    box-shadow: 2px 4px 6px rgba(0, 0, 3, 0.125);
-    border: solid 1px var(--form-border-adm);
-    border-radius: 30px;
-
-    width: 70%;
-    height: 90vh;
-    padding: 30px 20px;
+.input-3 {
+    width: 33%;
 }
-
-.back-btn {
+/* .back-btn {
     width: 25px;
     height: 25px;
     border-radius: 20px;
     border: solid 1px var(--dark-blue-txt);
     color: var(--dark-blue-txt);
-}
+} */
 
-h1{
+/* h1{
     margin: 10px 0;
     text-align: center;
-}
+}  */
 
 
 
