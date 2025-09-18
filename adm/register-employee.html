@@ -5,41 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/adm.css">
+    <link rel="stylesheet" href="../css/register-employee.css">
     <link rel="stylesheet" href="../css/style.css">
 
     <title>Cadastro de funcionário</title>
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <h1>CADASTRO DE FUNCIONÁRIO</h1>
-        <form id="register-employee">
-            <div class="container-input">
+
+        <form id="register-form" class="register-employee-container">
+            <div class="container-input name">
                 <label for="">NOME COMPLETO: </label>
                 <input type="text" required>
             </div>
 
-            <div class="container-input">
+            <div class="container-input gender">
                 <label for="">GÊNERO:</label>
                 <input class="input-3" type="text" required>
+            </div>
 
+            <div class="container-input id-number">
                 <label for="">RG OU CPF:</label>
                 <input class="input-3" type="text" required>
+            </div>
 
+            <div class="container-input position">
                 <label for="">CARGO:</label>
                 <input class="input-3" type="text" required>
             </div>
 
-            <div class="container-input">
+            <div class="container-input email">
                 <label for="">EMAIL:</label>
                 <input type="text" required>
             </div>
 
-            <div class="buttons">
-                <button class="back-btn">VOLTAR</button>
-                <button type="submit">CONCLUIR CADASTRO</button>
-            </div>
+            <button id="submit-btn" class="submit-btn" type="submit">CONCLUIR CADASTRO</button>
         </form>
-    </div>
+    </main>
+
+    <script src="../js/register_employee.js"></script>
 </body>
 </html>
