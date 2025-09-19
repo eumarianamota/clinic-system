@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/reception/register-patient.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Perfil do funcionário</title>
+</head>
+<body>
+    <main class="container">
+        <h1>PERFIL DO PACIENTE</h1>
+
+        <div class="info-patient-container">
+            <div class="name">
+                <label for="">NOME COMPLETO: </label>
+                <input type="text" required>
+            </div>
+
+            <div class="gender">
+                <label for="">GÊNERO:</label>
+                <input type="text" required>
+            </div>
+
+            <div class="id-number">
+                <label for="">RG OU CPF:</label>
+                <input type="text" required>
+            </div>
+
+            <div class="birthdate">
+                <label for="">NASCIMENTO:</label>
+                <input type="date" required>
+            </div>
+
+            <div class="sus-number">
+                <label for="">CARTÃO DO SUS:</label>
+                <input type="number" required>
+            </div>
+
+            <div class="address">
+                <label for="">ENDEREÇO:</label>
+                <input type="text">
+            </div>
+
+            <button id="submit-screening-btn" class="submit-btn" type="click">CONCLUIR CADASTRO  E ENVIAR PARA A TRIAGEM</button>
+        </div>
+    </main>
+
+    <script src="../js/reception/register_patient.js"></script>
+</body>
+</html>

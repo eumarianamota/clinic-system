@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/reception/register-patient.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Cadastro de funcionário</title>
+</head>
+<body>
+    <main class="container">
+        <h1>CADASTRO DE PACIENTE</h1>
+
+        <form id="register-form" class="register-employee-container">
+            <div class="container-input name">
+                <label for="">NOME COMPLETO: </label>
+                <input type="text" required>
+            </div>
+
+            <div class="container-input gender">
+                <label for="">GÊNERO:</label>
+                <input type="text" required>
+            </div>
+
+            <div class="container-input id-number">
+                <label for="">RG OU CPF:</label>
+                <input type="text" required>
+            </div>
+
+            <div class="container-input birthdate">
+                <label for="">NASCIMENTO:</label>
+                <input type="date" required>
+            </div>
+
+            <div class="container-input sus-number">
+                <label for="">CARTÃO DO SUS:</label>
+                <input type="number" required>
+            </div>
+
+            <div class="container-input address">
+                <label for="">ENDEREÇO:</label>
+                <input type="text">
+            </div>
+
+            <button id="submit-register-btn" class="submit-register-btn submit-btn" type="submit">CONCLUIR CADASTRO</button>
+            <button id="submit-screening-btn" class="submit-screening-btn submit-btn" type="submit">CONCLUIR CADASTRO  E ENVIAR PARA A TRIAGEM</button>
+        </form>
+    </main>
+
+    <script src="../js/reception/register_patient.js"></script>
+</body>
+</html>
